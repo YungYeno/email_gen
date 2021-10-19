@@ -1,6 +1,6 @@
 <h1 align="center"><Email_Gen></h1>
 
-<p align="center"><Generate unlimited of dummy emails!></p>
+<p align="center"><Generate unlimited dummy emails!></p>
 
 
 ## Available Commands
@@ -23,7 +23,7 @@ The app is built for python3!
 
 ## Future Updates
 
-- [ ] Reliable Storage
+- [ ❌ ] String input for custom emails
 
 ## Author
 
