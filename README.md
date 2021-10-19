@@ -12,11 +12,9 @@ To start the program, you can run:
 usage: generator.py [-h] [-n NUMBER] [-o OUTPUT]
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -n NUMBER, --number NUMBER
-                        Number of emails
-  -o OUTPUT, --output OUTPUT
-                        Output format (txt or csv)
+  -h, --help      Show this help message and exit
+  -n, --number    Number of emails
+  -o, --output    Output format (txt or csv)
 
 
 ## Built With
@@ -30,7 +28,7 @@ optional arguments:
 
 ## Future Updates
 
-- [ ❌ ] String input for custom emails
+- [ ... ] String input for custom emails
 
 ## Author
 
