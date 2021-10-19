@@ -1,8 +1,6 @@
 import json
-import sys
 from random import randint
 from colorama import init, Fore
-import csv
 
 # initialize colours
 init()
@@ -28,9 +26,9 @@ def intro():
 
 # Reads and opens the correct json files
 def read_json():
-    with open('json/names.json') as name:
+    with open('names.json') as name:
         names = json.load(name)
-    with open('json/surnames.json') as surname:
+    with open('surnames.json') as surname:
         surnames = json.load(surname)
 
     return names, surnames
@@ -49,7 +47,7 @@ def generate(names, surnames, max_email):
 
 # Save generated e-mails in 'generated.txt'.
 def write_txt(generated, max_email):
-    with open('generated/generated.txt', 'w') as file:
+    with open('generated.txt', 'w') as file:
         for email in generated:
             file.write("%s\n" % email)
         print(f"{GREEN}[ ✅ ]{WHITE} all {GREEN}{max_email}{WHITE} emails are saved in {GREEN}generated.txt{WHITE} ! ")
@@ -57,7 +55,7 @@ def write_txt(generated, max_email):
 
 # Save generated e-mails in 'generated.csv'.
 def write_csv(generated, max_email):
-    file = open('generated/generated.csv', 'w')
+    file = open('generated.csv', 'w')
     for email in generated:
         file.write("%s\n" % email)
     print(f"{GREEN}- ✅{WHITE} all {GREEN}{max_email}{WHITE} emails are saved in {GREEN}generated.csv{WHITE} ! ")

@@ -1,5 +1,4 @@
 from functions import *
-import sys
 import argparse
 
 
