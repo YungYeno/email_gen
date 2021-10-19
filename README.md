@@ -7,9 +7,12 @@
 
 To start the program, you can run:
 
-### `python3 generator.py -n {amount of emails you want to generate} -o {output format}`,
+#### `python3 generator.py -n {amount of emails you want to generate} -o {output format}`,
 
-The app is built for python3!
+optional arguments: <br>
+  -h, --help      Show this help message and exit <br>
+  -n, --number    Number of emails <br>
+  -o, --output    Output format (txt or csv) <br>
 
 
 ## Built With
@@ -23,7 +26,7 @@ The app is built for python3!
 
 ## Future Updates
 
-- [ ❌ ] String input for custom emails
+- [ ... ] String input for custom emails
 
 ## Author
 
