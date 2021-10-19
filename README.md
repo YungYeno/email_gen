@@ -9,7 +9,7 @@ To start the program, you can run:
 
 #### `python3 generator.py -n {amount of emails you want to generate} -o {output format}`,
 
-optional arguments:
+optional arguments: <br>
   -h, --help      Show this help message and exit <br>
   -n, --number    Number of emails <br>
   -o, --output    Output format (txt or csv) <br>
